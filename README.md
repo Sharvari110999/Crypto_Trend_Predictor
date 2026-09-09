@@ -1,4 +1,4 @@
-# AIHustlers_Encode
+# Crypto-Trend-Predictor
 
 # Aim
 
@@ -61,8 +61,10 @@ This agent’s clustering results are communicated with the main agent to inform
 # 5. Main Agent (langgraph agent)
 The two agents collaborate by sharing insights, enabling a unified prediction of trends. This system design enhances predictive capabilities by combining long-term statistical clustering with real-time social sentiment analysis. THe insights are transferred to this langgraph agent which uses a weighted algorithm to predict a common predicted trends from long term and short term prediction at real-time.
 
-# Architecture
-
+# How to Run
+  1. Clone the repo
+  2. Run Clustering.ipynb first to train and generate the model/scaler .pkl files
+  3. run agent1.py / agent2.py / lang.py
 
 # Data Sources
 
